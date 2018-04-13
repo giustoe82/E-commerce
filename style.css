@@ -1,0 +1,96 @@
+/* navbar */
+#mainNav :hover{
+    color: rgb(57, 129, 236);
+}
+
+.navbar{
+    background-color: rgb(39, 37, 37);
+    
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+.navbar .navbar-toggler{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.navbar .navbar-nav .navbar-item{
+    color: white;
+}
+
+.collapse{
+    background-color: rgb(39, 37, 37);
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+
+/* Register page */
+
+.bg2{
+    background-image: url(images/regbg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+/* index page */
+
+header{
+    background-image: url(images/dreambg3.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    text-align: center;
+}
+.desc{
+  
+    color: white;
+}
+
+
+/* Products */
+
+.products-wrap{
+    width: 100%;
+    height: 100%;
+    
+    /*background-color: rgb(30, 165, 170);
+    */
+    color: black;
+
+}
+.products-inside{
+    
+    width: 900px;
+  
+}
+.products{
+    
+    height: 450px;
+    width: 450px;
+    
+}
+
+/* cart */
+
+.cart-section{
+    background-color: rgb(0, 183, 255);
+    border: solid;
+    border-color: black;
+}
+.cart-title{
+    text-align: center;
+    color: black;
+}
+.left-btn{
+    margin-right: 10px;
+}
